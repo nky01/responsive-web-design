@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+	tab-size: 4;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', Arial, sans-serif;
+}
+
+#nav-bar {
+	width: 100%;
+	height: 14vh;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: fixed;
+	top: 0;
+	background: #FFF;
+	z-index: 2;
+	background-color: #EEE9;
+}
+
+#header-img {
+	width: 110px;
+	margin-left: 65px;
+}
+
+.header-options {
+	width: 43%;
+	margin-right: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header-options ul {
+	display: flex;
+	justify-content: center;
+	width: 400px;
+	background-color: #EEE;
+	border-radius: 30px;
+}
+
+.header-options ul li {
+	padding: 14px 25px;
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+}
+
+a:hover {
+	color: #000;
+}
+
+.btn {
+	background-color: #333;
+	color: #FFF;
+	padding: 15px 28px;
+	border: none;
+	border-radius: 25px;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background-color: #444;
+}
+
+.btn:active {
+	background-color: #555;
+}
+
+.header-container {
+	width: 90%;
+	height: 80vh;
+	margin: 0 auto;
+	border-radius: 50px;
+	background-image: linear-gradient(rgba(11,11,11,0.1),rgba(11,11,11,0.1)), url("https://graziamagazine.com/mx/wp-content/uploads/sites/13/2021/07/como-elegir-correctamente-tus-productos-de-skincare-sin-fallar-en-el-intento-destacada.jpg");
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	margin-top: 16vh;
+}
+
+.header-container .quote {
+	position: absolute;
+	bottom: 50px;
+	left: 30px;
+	font-size: 1.7rem;
+	line-height: 34px;
+	color: white;
+}
+
+#goal {
+	margin-top: 40px;
+	width: 100%;
+	height: 60vh;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.image-1 img {
+	width: 60%;
+	margin-left: 150px;
+}
+
+#goal p {
+	width: 45vw;
+	color: #333;
+	margin-right: 100px;
+}
+
+#catalog {
+	width: 100%;
+	height: 64vh;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.product {
+	width: 20vw;
+	height: 50vh;
+	text-align: center;
+	padding: 7px 0;
+}
+
+.product img {
+	width: 80%;
+}
+
+.btn-product {
+	background-color: #333;
+	color: #FFF;
+	margin-top: 7px;
+	padding: 10px 70px;
+	border: none;
+	cursor: pointer;
+}
+
+.btn-product:hover {
+	background-color: #444;
+}
+
+.btn-product:active {
+	background-color: #555;
+}
+
+footer {
+	height: 20vh;
+	width: 100%;
+	background-color: #333;
+	text-align: center;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.video {
+	margin: 60px 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#form {
+	padding: 30px;
+	margin: 0 auto;
+	width: 60vw;
+	height: 80vh;
+}
+
+fieldset {
+	width: 100%;
+	height: auto;
+	border: none;
+}
+
+label {
+	margin-top: 10px;
+}
+
+#submit {
+	margin-top: 20px;
+}
+
+input,
+textarea {
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 8px;
+}
+
+@media (max-width: 768px) {
+	#catalog {
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+		margin: 20px 0;
+	}
+
+	.image-1 img {
+		width: 50%;
+		margin: auto;
+	}
+
+	#goal {
+		margin-top: 80px;
+		flex-direction: column;
+		height: auto;
+		text-align: center;
+	}
+
+	#goal p {
+		width: 90%;
+		margin: 20px auto;
+	}
+
+	.header-options ul {
+		visibility: hidden;
+	}
+
+	.btn {
+		position: absolute;
+		right: 10px;
+	}
+
+	.header-container {
+		height: 60vh;
+	}
+
+	.header-container .quote {
+		font-size: 1.2rem;
+		line-height: 28px;
+	}
+
+	iframe#video {
+		width: 100%;
+		height: 250px;
+	}
+}

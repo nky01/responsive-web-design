@@ -1,0 +1,56 @@
+<DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Electronic Music Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="title">Electronic Music Survey Form</h1>
+    <p id="description">Thank you for being an electronic music lover - <strong>WE LOVE YOU!</strong></p>
+    <form id="survey-form">
+        <fieldset>
+            <label id="name-label">Name<input type="text" id="name" placeholder="Enter your name" required></label>
+            <label id="email-label">Email<input type="email" id="email" placeholder="Enter your email" required></label>
+            <label id="number-label">Age (optional)<input type="number" id="number" placeholder="Age" min="18" max="80"></label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Can you live without music?</legend>
+                <label><input type="radio" name="option" class="inline" value="1"> Definitely</label>
+                <label><input type="radio" name="option" class="inline" value="2"> Maybe</label>
+                <label><input type="radio" name="option" class="inline" value="3"> Not sure</label>
+        </fieldset>
+
+        <fieldset>
+            <label>Who is your favourite DJ?
+                <select id="dropdown" name="dropdown">
+                    <option>(select one)</option>
+                    <option>Avicii</option>
+                    <option>Martin Garrix</option>
+                    <option>Nora En Pure</option>
+                    <option>David Guetta</option>
+                    <option>Other</option>
+            </select>
+            <label>
+        </fieldset>
+    
+        <fieldset>
+            <legend>Where is your favourite country to have a concert?</legend>
+                <label><input type="checkbox" class="inline" value="1"> Belgium</label>
+                <label><input type="checkbox" class="inline" value="2"> Netherlands</label>
+                <label><input type="checkbox" class="inline" value="3"> UK</label>
+                <label><input type="checkbox" class="inline" value="4"> Switzerland</label>
+                <label><input type="checkbox" class="inline" value="5"> USA</label>
+                <label><input type="checkbox" class="inline" value="6"> Germany</label>
+                <label><input type="checkbox"class="inline" value="7"> Canada</label>
+        </fieldset>
+    
+        <label>Any comments or suggestions?
+            <textarea placeholder="Enter your comment..."></textarea>
+        </label>
+    
+        <input type="submit" value="Submit" id="submit">
+    </form>
+</body>
+</html>
