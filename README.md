@@ -1,13 +1,12 @@
-# 💻🌐 Responsive Web Design Projects
+# 💻🌐 Responsive Web Design
 
-Welcome to my personal collection of projects created as part of the **Responsive Web Design Certification** from [freeCodeCamp](https://www.freecodecamp.org/).  
-These projects were built with clean HTML5, modern CSS3, and a focus on responsive, accessible layouts.
+Welcome to my personal collection of projects. 
+These were built with clean HTML5, modern CSS3, and a focus on responsive, accessible layouts.
 
 > 💻 *"Build it once, make it work everywhere."*
 
----
 
-## 🧠 Projects
+### Projects
 
 📄 **1. Tribute Page**  
 A simple, elegant page honoring a historical figure, with semantic HTML structure.
@@ -23,25 +22,5 @@ Multi-section doc layout with sticky navigation and responsive behavior on all s
 
 🌐 **5. Personal Portfolio Webpage**  
 A polished portfolio featuring all the projects above, styled with a personal design touch.
-
----
-
-## 🛠️ Tech Used
-
-- HTML5 🧱  
-- CSS3 🎨  
-- Flexbox & Grid 📐  
-- Media Queries 📱  
-- Web Accessibility 
-- Clean, responsive design principles 💡  
-
----
-
-## 🌟 Credits
-
-Built as part of the **Responsive Web Design Certification**  
-from [freeCodeCamp.org](https://www.freecodecamp.org/certification)
-
----
 
 Made with ❤️ and caffeine ☕ by nky01.
