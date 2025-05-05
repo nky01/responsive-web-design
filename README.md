@@ -32,7 +32,7 @@ A polished portfolio featuring all the projects above, styled with a personal de
 - CSS3 🎨  
 - Flexbox & Grid 📐  
 - Media Queries 📱  
-- Web Accessibility ♿  
+- Web Accessibility 
 - Clean, responsive design principles 💡  
 
 ---
